@@ -8,7 +8,7 @@ mean(women$time)
 var(men$time)
 var(women$time)
 (var(women$time)-var(men$time))/var(women$time)*100
-mae(var(men$time),var(women$time))
+
 # Include an appropriate plot of data grouped on gender.
 par(mfrow=c(1,1))
 boxplot(data$time ~ data$sex,col=2:3, ylab = "Time (s)", xlab = "Gender", main = "Boxplots of world record times" )
